@@ -1,0 +1,1 @@
+/Users/andonmitev/Desktop/asdwe/new-terra/htlc/target/debug/libhtlc.dylib: /Users/andonmitev/Desktop/asdwe/new-terra/htlc/src/contract.rs /Users/andonmitev/Desktop/asdwe/new-terra/htlc/src/error.rs /Users/andonmitev/Desktop/asdwe/new-terra/htlc/src/lib.rs /Users/andonmitev/Desktop/asdwe/new-terra/htlc/src/msg.rs /Users/andonmitev/Desktop/asdwe/new-terra/htlc/src/state.rs
