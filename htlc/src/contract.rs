@@ -79,7 +79,7 @@ fn try_claim(deps: DepsMut, env: Env, secret: String) -> Result<Response, Contra
 fn try_refund(deps: DepsMut, env: Env) -> Result<Response, ContractError> {
     let state = STATE.load(deps.storage)?;
 
-    if env.block.time.nanos() < state.expiration {
+    if env.block.time.seconds() < state.expiration {
         return Err(ContractError::SwapNotExpired {});
     }
 
